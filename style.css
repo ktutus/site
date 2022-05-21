@@ -1,0 +1,39 @@
+.button {
+ 
+   
+    
+    min-height: 60px;
+ padding: 0px 50px;
+ padding-top: 25px;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   font-size: 18px;
+   border-radius: 10px;
+   position: relative;
+   top:0;
+   color:white;
+   background-color: blueviolet;
+   box-shadow: 0 5px 0 black;
+   transition-property:all;
+   transition-duration: 0.5s;
+  transition-delay: 0,5;
+   transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+ padding-bottom: 0px;
+
+  
+  
+}
+.button:hover{
+  
+    background-color: rgb(9, 214, 53);
+    padding: 0px 50px;
+  
+    
+    
+}
+.buttons {
+justify-content: center;
+display: flex;
+text-align: center;
+
+}
